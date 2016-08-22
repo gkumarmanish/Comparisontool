@@ -330,7 +330,9 @@ tr:nth-child(odd) {
                 data: dataString,
                 cache: false,
                 success: function(result){
+                    if(result != 1){
                         $('#first_div').html(result);
+                    }
                 }
                 });
             }
@@ -346,8 +348,9 @@ tr:nth-child(odd) {
                 data: dataString,
                 cache: false,
                 success: function(result){
-                        $('#second_div').html(result);
-                }
+                       if(result != 1){
+                       $('#second_div').html(result);
+                }}
                 });
             }
          });
@@ -362,8 +365,9 @@ tr:nth-child(odd) {
                 data: dataString,
                 cache: false,
                 success: function(result){
-                        $('#third_div').html(result);
-                }
+                        if(result != 1){
+                    $('#third_div').html(result);
+                }}
                 });
             }
          });

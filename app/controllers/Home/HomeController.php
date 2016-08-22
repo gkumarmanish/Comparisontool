@@ -37,7 +37,7 @@ class HomeController extends HomeBaseController {
         $base = new HomeModel();
        
         $data = $base->getPropertyBySearch($dataArray['search']);
-       
+        if(!empty($data)){
         $response = '<div><img src="'.__PUBLIC__.'images/'.$data['cp_image'].'" alt="Mountain View" style="width: 100%; height:140px;">  
         </div><table class="table table-bordered">
                 <tr style="margin-bottom: 10px;">
@@ -54,12 +54,25 @@ class HomeController extends HomeBaseController {
                 
             }
         }
+       
         
         $response.='</table>';
         echo $response;
         }
         else{
-            $response = '<div><img src="'.__PUBLIC__.'images/no_image.jpg" alt="Mountain View" style="width: 100%; height:140px;">  
+            $response = $this->getEmptyData();
+            echo $response;
+        }
+        }
+        else{
+            $response = $this->getEmptyData();
+            echo $response;
+        }
+    }
+    
+    
+    public function getEmptyData() {
+        return  '<div><img src="'.__PUBLIC__.'images/no_image.jpg" alt="Mountain View" style="width: 100%; height:140px;">  
         </div>
              <table class="table table-bordered">
                  <tr>
@@ -107,10 +120,7 @@ class HomeController extends HomeBaseController {
             <td><br></td>
           </tr>
         </table>';
-            echo $response;
-        }
     }
-    
    
 }
 

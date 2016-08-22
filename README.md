@@ -10,4 +10,6 @@ Steps to Run the Application
 
 3. Change the mysql database credential in app/models/HomeModel.php.
  
-4. Run the Project in the Url 
+4. Run the Project in the Browser Type 
+   
+   Url: http://localhost/Comparisontool

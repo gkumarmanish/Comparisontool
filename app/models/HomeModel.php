@@ -48,17 +48,21 @@ class HomeModel extends \Phalcon\Mvc\Model {
             }
 
             $sql = "SELECT * FROM ct_property WHERE cp_property_name LIKE '%".$name."%'";
-              
+            $data = array();  
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
                 // output data of each row
                 while($row = $result->fetch_assoc()) {
                     $data[] = $row;
                 }
-            } else {
-                echo "0 results";
-            }
+            } 
             $conn->close();
+            if(!empty($data[0])){
             return $data[0];
+            }
+            else{
+                return;
+            }
+            
     }
 }
