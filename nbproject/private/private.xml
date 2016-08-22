@@ -3,22 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/public/index.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/models/ReportsModel.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/models/ApprovalsModel.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/plugins/URL.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/require/services.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/views/Dashboard/dashboard/index.volt</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/.htaccess</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/controllers/Dashboard/DashboardController.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/plugins/DB.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/models/BaseModel.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/controllers/ControllerBase.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/controllers/Profile/ProfileController.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/controllers/AuthManager/AuthController.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/models/LogsModel.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/controllers/RiskProfile/RiskprofileController.php</file>
-            <file>file:/C:/xampp/htdocs/CustomerPortal/app/controllers/API/ApiController.php</file>
+            <file>file:/var/www/html/Comparisontool/public/style.css</file>
+            <file>file:/var/www/html/Comparisontool/public/.htaccess</file>
+            <file>file:/var/www/html/Comparisontool/app/views/Home/home/index.volt</file>
+            <file>file:/var/www/html/Comparisontool/app/controllers/Home/HomeController.php</file>
+            <file>file:/var/www/html/Comparisontool/public/js/currency-autocomplete.js</file>
+            <file>file:/var/www/html/Comparisontool/app/controllers/IndexController.php</file>
+            <file>file:/var/www/html/Comparisontool/.htaccess</file>
+            <file>file:/var/www/html/Comparisontool/app/models/HomeModel.php</file>
+            <file>file:/var/www/html/Comparisontool/comparisontool.sql</file>
+            <file>file:/var/www/html/Comparisontool/public/js/jquery.min.js</file>
+            <file>file:/var/www/html/Comparisontool/require/routes.php</file>
         </group>
     </open-files>
 </project-private>
